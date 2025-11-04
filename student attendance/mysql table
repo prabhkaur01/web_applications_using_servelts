@@ -1,0 +1,6 @@
+CREATE TABLE Attendance (
+    ID INT AUTO_INCREMENT PRIMARY KEY,
+    StudentID VARCHAR(20),
+    Date DATE,
+    Status VARCHAR(10)
+);
